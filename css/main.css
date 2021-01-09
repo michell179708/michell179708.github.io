@@ -1,29 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 h1{
-font-family: 'East Sea Dokdo', cursive;
+font-family: 'Acme', sans-serif;
 font-size:60px ;
 text-align: center;
 
 }
 
 h2{
-font-family: 'East Sea Dokdo', cursive;
-font-size:40px ;
+font-family: 'Acme', sans-serif;
+font-size:30px ;
 
 }
 
  footer{
-font-family: 'East Sea Dokdo', cursive;
-font-size:25px;
+font-family: 'Acme', sans-serif;
+font-size:15px;
 text-align: center;  
-background-color:#48D1CC;
+background-color:#b8f2e6;
 padding:10px;
  }
   
  header{
- background-color:#48D1CC;
+ background-color:#b8f2e6;
  padding:10px;
  }
 
- 
+ .image{
+     float:right;
+ }
+  
+ ul,li{
+     list-style-type:circle;
+ }
+ a:link{
+     text-decoration: none;
+     color:#ffa69e;
+ }
+  
+ a:hover{
+     color:#f7d9c4;
+ }
+
+ a:visited{
+     color:#aed9e0;
+ }
+ img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    
+  }
+
+.image{
+    box-shadow: 10px 10px 5px grey;
+}
