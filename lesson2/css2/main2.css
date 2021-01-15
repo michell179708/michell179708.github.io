@@ -1,1 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+.image{
+    width: 400px;
+    height: 800px;
+}
+
+footer{
+    margin-top: 20px;
+    margin-bottom
+    
+    
+    
+    : 20px;
+    text-align: center;
+}
+
+main{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+.card{
+    margin: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-color: black;
+    border-style: dotted;
+    border-radius: 8%;
+    background-color: rgba(0, 0, 128, 0.7);
+}
+
+/********************** Tablet **********************/
+@media only screen and (min-width: 65em){
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/********************** Desktop **********************/
+@media only screen and (min-width: 90em){
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
