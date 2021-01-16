@@ -13,6 +13,10 @@ font-size:70px ;
 text-align: center;
 }
 
+p{
+font-family: 'Acme', sans-serif;
+font-size:20px;
+}
 header{
     background-color:#b8f2e6 ;
     padding:10px;
