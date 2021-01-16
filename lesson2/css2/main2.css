@@ -1,45 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+h2,h3{ 
+ font-family: 'Acme', sans-serif;
+font-size:50px ;
+text-align: center;
+}
+
+
+h1{
+font-family: 'Acme', sans-serif;
+font-size:70px ;
+text-align: center;
+}
+
+header{
+    background-color:#b8f2e6;
+    padding:10px;
+    padding-right:20px ;
+}
+
 .image{
+     
     width: 400px;
     height: 800px;
 }
 
+
+
 footer{
     margin-top: 20px;
-    margin-bottom
-    
-    
-    
-    : 20px;
+    margin-bottom:20px;
+    font-family: 'Acme', sans-serif;
+    font-size:25px;
     text-align: center;
+    background-color:#b8f2e6;
+    padding:20px;
 }
 
-main{
-    display:grid;
-    grid-template-columns: 1fr;
-}
 
 .card{
     margin: 20px;
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
-    border-color: black;
-    border-style: dotted;
-    border-radius: 8%;
-    background-color: rgba(0, 0, 128, 0.7);
+    border-color: white;
+    border-style: double;
+  
+    background-color:#ea9ab2;
 }
 
-/********************** Tablet **********************/
-@media only screen and (min-width: 65em){
-    main{
-        grid-template-columns: 1fr 1fr;
-    }
-}
+a:link{
+     font-size: 30px;
+     text-decoration: none;
+     color:#ffa69e;
+ }
+  
+ a:hover{
+     color:#f7d9c4;
+ }
 
-/********************** Desktop **********************/
-@media only screen and (min-width: 90em){
-    main{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
+ a:visited{
+     color:white;
+ }
