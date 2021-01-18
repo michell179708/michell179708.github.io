@@ -20,16 +20,19 @@ main{
 }
 
 
-/********************** Tablet **********************/
-@media only screen and (min-width: 65em){
-    main{
-        grid-template-columns: 1fr 1fr;
-    }
-}
+
 
 /********************** Desktop **********************/
 @media only screen and (min-width: 90em){
     main{
         grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+/********************** Tablet **********************/
+@media only screen and (min-width: 65em){
+    main{
+        grid-template-columns: 1fr 1fr;
     }
 }
