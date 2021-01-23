@@ -1,0 +1,118 @@
+/* importancion de fonts para el style de la pagina */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* style for the paragraphs and titles*/
+
+h1{
+    font-size: 6em;
+    font-family: 'Lora', serif;
+    text-align: center;
+  
+}
+ 
+h2{
+    font-size:2em ;
+    font-family: 'Lora', serif;
+    text-align: center;
+   
+  
+}
+
+
+
+h3,p{
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 60px;
+}
+
+/* style for the images*/
+
+img{
+    width: 150px;
+    height: 250;
+}
+
+.imagecolor{
+    width:800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+
+}
+
+.imageindex{
+    width:700px ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+/*style for the navigation bar */
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    
+ 
+}
+
+ li a{
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    font-size:30px ;
+    padding:80px;
+    color:#F4F4F9;
+   
+}
+
+li{
+    display: inline;
+    
+  
+}
+
+header{
+    background-color:#586F7C;
+    color:#F4F4F9;
+    padding:10px;
+    
+    
+}
+footer{
+    text-align: center;
+    font-family: 'Lora', serif;
+    background-color:#586F7C;
+    padding:20px;
+    color:#F4F4F9;
+    
+}
+
+.main{
+    margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color:#F4F4F9;
+}
+
+a:visited{
+    color:#B8DBD9;
+}
+
+a:link{
+    color:#F4F4F9;
+}
+
+a:hover{
+    color:#2F4550;
+}
+
+a:active{
+    color:#B8DBD9;
+}
+
