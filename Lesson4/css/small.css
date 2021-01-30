@@ -6,6 +6,7 @@
 h1{
     font-size: 3em;
     font-family: 'Lora', serif;
+    text-align: center;
     
 }
 
@@ -25,7 +26,10 @@ h3{
  /*Style for the logo and how the image will diaplay*/
 
 img{
-    float: left;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
     width: 150px;
     
 }

@@ -11,6 +11,10 @@
         text-align: center;
     }
 
+    img{
+        float:left;
+    }
+
     nav{
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffc578+0,fb9d23+100;Orange+3D+%233 */
      background: #ffc578; /* Old browsers */
