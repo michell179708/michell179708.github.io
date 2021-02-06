@@ -1,0 +1,117 @@
+/*Responsive navigation for tablet*/
+
+@media only screen and (min-width: 35em){
+   
+    h1{
+        text-align: center;
+    }
+
+    h3{
+        text-align: center;
+    }
+
+    img{
+        float:left;
+    }
+
+    nav{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffc578+0,fb9d23+100;Orange+3D+%233 */
+     background: #ffc578; /* Old browsers */
+     background: -moz-linear-gradient(top,  #ffc578 0%, #fb9d23 100%); /* FF3.6-15 */
+     background: -webkit-linear-gradient(top,  #ffc578 0%,#fb9d23 100%); /* Chrome10-25,Safari5.1-6 */
+     background: linear-gradient(to bottom,  #ffc578 0%,#fb9d23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc578', endColorstr='#fb9d23',GradientType=0 ); /* IE6-9 */
+
+    }
+
+    nav button{
+        display: none;
+
+    }
+
+    nav ul.hide{
+        display: block;
+    }
+
+    nav ul{
+        margin-left: 2%;
+    }
+
+    nav ul li{
+        float:left
+    }
+
+    nav ul li a{
+        border: none;
+        border-right: 1px solid rgb(0,0,0,0.3);
+        padding: 0.9em ;
+    }
+
+  .size{
+      font-size: 18px;
+  }
+
+  /*weather sumarry*/
+
+  div#five-day{
+     display: block;
+     width:100%;
+     
+  }
+
+  
+
+  .center{
+    margin: 25px 50px 75px 100px;
+  }
+
+ 
+
+  .icon-fiveday{
+      width:150px;
+      
+  }
+
+  .table{
+      padding-top: 6em;
+    
+     
+  }
+
+  .color-table{
+      background-color: antiquewhite;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+  }
+
+  /*article*/
+
+  .image-article{
+      width: 450px;
+      float: left;
+      margin-right: 1em;
+
+  }
+
+  /*Information*/
+
+    .information{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     padding: 1.5em;
+     
+    }
+
+  .image-information{
+      width:500px;
+      margin-right: 1em;
+
+  }
+
+
+  .image-social{
+      width:70px;
+      padding: 0.30em;
+  }
+
+}
