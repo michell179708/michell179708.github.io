@@ -216,3 +216,9 @@ nav ul li a:hover{
   nav ul.hide{
       display: none;
   }
+
+  /*Announcement*/
+
+  aside#active.anuncio.hide {
+    display: none;
+  }

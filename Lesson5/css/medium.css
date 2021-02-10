@@ -1,6 +1,6 @@
 /*Responsive navigation for tablet*/
 
-@media only screen and (min-width: 35em){
+@media only screen and (min-width: 32.5em){
    
     h1{
         text-align: center;
@@ -114,4 +114,8 @@
       padding: 0.30em;
   }
 
+}
+
+.anuncio{
+    display: block;
 }
