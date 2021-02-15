@@ -6,6 +6,7 @@ let daynames = [
     "Thursday",
     "Friday",
     "Saturday",
+
    ];
    let months = [
     "January",
@@ -33,4 +34,4 @@ let daynames = [
    ", " +
    d.getFullYear();
 
-   document.getElementById("date").textContent=fulldate;
+   document.getElementById("date").textContent= fulldate;

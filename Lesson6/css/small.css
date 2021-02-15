@@ -113,26 +113,23 @@ nav ul li a:hover{
     
    .weather-image{
   
+  
     width:100%;
- 
+    
     
 }
 
 
+.section-weather{
+    display: block;
+    background-color: antiquewhite;
+    border-color: antiquewhite;
+    padding: 1.5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+    margin-top: 3em;
 
-  .weather{
-    position: relative;
-  }
 
-  .section-weather{
-      position: absolute;
-      top: 1em;
-      left: 3.5em;
-      background-color: antiquewhite;
-      border-color: antiquewhite;
-      padding: 1.5em;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
-  }
+}
   
   .paragraph{
       font-size:1.5em;
@@ -170,6 +167,7 @@ nav ul li a:hover{
 
   .information{
     display: block;
+    padding-left: 1em;
     
   }
 
@@ -177,6 +175,7 @@ nav ul li a:hover{
       width:100%;
       height: auto;
       padding: 1em;
+   
   }
 
   .image-social{

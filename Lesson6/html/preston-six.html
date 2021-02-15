@@ -49,8 +49,10 @@
      <h3>Preston Idaho</h3>
      <div class="weather">
          <picture>
-          <source media="max-width:500px" srcset="images/small500.jpg">
-          <source media="(max-width:800px)" srcset="images/medium800.jpg ">
+          <source media="max-width:500px" srcset="../images/small500.jpg" >
+        
+          <source media="(max-width:800px)" srcset="../images/medium800.jpg ">
+        
          <img class="weather-image" src="../images/preston.jpg" alt="Image">
         </picture>
          <section class="section-weather">
@@ -58,7 +60,7 @@
              <p class="paragraph"><strong>Temperature:</strong> 22ºC</p>
              <p class="paragraph"><strong>Humidity:</strong> 55%</p>
              <p class="paragraph"><strong>Wind:</strong> 14km/h</p>
-             <p class="paragraph"><strong>windChill:</strong><span id="f"></span></p>
+             <p class="paragraph"><strong>windChill:<span id="windchill_num"></span></strong></p>
 
 
          </section>

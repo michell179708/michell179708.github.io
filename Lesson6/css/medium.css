@@ -87,6 +87,23 @@
       text-align: center;
   }
 
+  /*style for the banner in the central image*/
+
+  
+  .weather{
+    position: relative;
+  }
+
+  .section-weather{
+    position: absolute;
+    top: 1em;
+    left: 3.5em;
+    background-color: antiquewhite;
+    border-color: antiquewhite;
+    padding: 1.5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+}
+
   /*article*/
 
   .image-article{
