@@ -12,7 +12,7 @@
   }
   document.getElementById("windChill").innerHTML= windChill(48,9);
 
-   
+  
   }
 
 
