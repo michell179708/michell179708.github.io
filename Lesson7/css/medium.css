@@ -1,0 +1,52 @@
+@media only screen and (min-width: 32.5em){
+
+    h1{
+        text-align: center;
+    }
+
+    h3{
+        text-align: center;
+    }
+
+    img{
+        float:left;
+    }
+
+    nav{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffc578+0,fb9d23+100;Orange+3D+%233 */
+     background: #ffc578; /* Old browsers */
+     background: -moz-linear-gradient(top,  #ffc578 0%, #fb9d23 100%); /* FF3.6-15 */
+     background: -webkit-linear-gradient(top,  #ffc578 0%,#fb9d23 100%); /* Chrome10-25,Safari5.1-6 */
+     background: linear-gradient(to bottom,  #ffc578 0%,#fb9d23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc578', endColorstr='#fb9d23',GradientType=0 ); /* IE6-9 */
+
+    }
+
+    nav button{
+        display: none;
+
+    }
+
+    nav ul.hide{
+        display: block;
+    }
+
+    nav ul{
+        margin-left: 2%;
+    }
+
+    nav ul li{
+        float:left
+    }
+
+    nav ul li a{
+        border: none;
+        border-right: 1px solid rgb(0,0,0,0.3);
+        padding: 0.9em ;
+    }
+
+  .size{
+      font-size: 18px;
+  }
+
+}

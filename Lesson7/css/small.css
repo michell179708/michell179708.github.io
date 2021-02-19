@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+
+h1{
+    font-size: 3em;
+    font-family: 'Lora', serif;
+    text-align: center;
+    
+}
+
+h3{
+    font-size:1.8em ;
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+h4,h5{
+    font-size:1.5em;
+    font-family: 'Lora', serif;
+
+}
+
+
+
+
+.sub-header{
+    font-size:0.8em ;
+    font-family: 'Lora', serif;
+    text-align: center;
+  
+}
+
+ /*Style for the logo and how the image will diaplay*/
+
+img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 150px;
+    
+}
+
+/*Style for the header*/
+
+header{
+    background-color: #face88;
+    padding: 1em;
+    margin-left: auto;
+}
+ /*Style for the navigation, how will display, and the responsive for mobile*/
+
+
+
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: black;
+ 
+}
+
+nav{
+    clear:left;
+   background-color: #fac549;
+   font-family: 'Montserrat', sans-serif;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a{
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid rgb(0,0,0,0.5);
+}
+
+
+nav ul li.active{
+   
+    background-color: white ;
+    color: white;
+   
+}
+
+
+nav ul li a:hover{
+    background-color: #f8961e ;
+}
+
+ 
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+   /*Footer*/
+
+   footer{
+    background-color: #face88;
+    padding: 0.8em;
+    font-family: 'Lora', serif;
+    font-size: 12px;
+    text-align: center;
+
+
+}
+  
+/*Link del footer*/
+
+a.link{
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:hover{
+    background-color: #f8961e  ;
+}
+
+nav ul.hide{
+    display: none;
+}

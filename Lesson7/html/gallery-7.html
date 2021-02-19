@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weather site for week 04">
+    <!--Normalize works to keep some styles that works well, and only homologatw the style that are inconsistent.-->
+     <link rel="stylesheet" href="../css/normalize.css">
+     <!--Stylesheet for the small view  for a mobile.-->
+     <link rel="stylesheet" href="../css/small.css">
+     <!--Stylesheet for the view desktop.-->
+     <link rel="stylesheet" href="../css/large.css">
+     <!--Stylesheet for the medium view  for a tablet.-->
+     <link rel="stylesheet" href="../css/medium.css">
+    <title>Gallery</title>
+    <!--Mini icon for the tittle of the page in the browser, you can fin in favicon-->
+    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAADTyrYA0su5ALXk1wDu+/8AY9P3AO/7/wDT8f0A9v38ACK++QD4/fwA+P7/AOzq3wD7/v8A/P7/AIvr/wACvP0AyceuAM7ErgCA0usAmOj/ANHKtwCqxLgA6fr9AOr6/QCS3NMA083AAASn9QDz/f0AiuD6ANrTwADV9vsAsOv/ANnVxgDc1MMA//39ANv3/gC18f8AEbf4AMLo/wDf/f4ASOT/AMLw/AAB1P4AANr+ANXPvgDp49UAPdH0APD9/gDT9P8A+P3+AOvp3gD8/f4AkOH+AP/9/gA+7OsAv+r9AOD6/wDPyLMAzcm2AOX6/wAB1P8A5/r/AN7o3ADw/f8AAOn/APL9/wDX0MIAz9TOAKzq/gABr/0AyMClAIrh/wDCxrcA29fFAO3q4gCx9v4A1d7RAM3DrgC89fsAB839AMnv+wDl4tQAIfD5AObi1ADv/P0A0+74APb7+gD3/P0A5uvmANvUxgC06v8AycOvAAK+/gAAyv4A4vn+AAHN/gAB0P4A2+PYAADc/gDg5NsAAOL+AN/o3gDm49gA1M/BANDTxADw/P4A9Pz+ANHy/ADAwq0A6ufbANPz/wDU8/8A+v/+AAzq+wD///4AxsW2AAW6/AAAwf8ABbv/AALB/wAAxP8AZ+z/AAHH/wDOx7MABsj5AADN/wDJzbwAAc3/AOPd0ADo+PwA08y5AADe/ABwyusAv+TUAIbd/wDWz8IA8vz/AKTy/gBn1PcA8/z/AD3S+wB78v8A1tPFAOnp4gAx7/gADuT8ALTp/gBN0ukA+///AP3//wDCyboA////ACHQ/wB31v0Auvb4AOL4/QCk3vAAoOP/AM/OwADu+/0A5uXXANLSwwADpvgABKv+AMbBrAD5/v0A+v79ANvWxgDY9f4AALr+AAG6/gABvf4AfeTXAEzZ9gDh9f4A4Pj+AFHU+QAByf4A8PLsANHJsgAB0v4AAdX+AOPh1QAA3v4A7fv+ANTNvgAA4f4A7/v+ANDSxADw+/4A6ubbAPz+/gDZ9PwA3NbHAP7+/gDd9PwAFaj2AADD/wDw7ecA3vj/AMXMvADi280AzMy8AM/LuQDn+P8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAl3KXl5eXwsI1IpeXlZeXly2zAE0RU44se4KyVgkzl5fJQlm5FDkBGWeey6FYV5eXSiHBgFG+oLYdOlukbBBGbcLGp2YyC0lzlshIyoe8aI+XDWoXVZwVfkxhPmVjIEOfl3C9x058kTasAoUYk51QPZdwux6ttLdAUpBxg7UIhF6XlCccLl08K7pkYipfogRLl3AFBhN2en9gYH2xdcQmm5elBcCSo1x1xXh1q0WGKTuXpUGBEjRPdA+pqncamW89l5QxVMOMR5h5jSglDiTMiJeXl6aarh9aRLCKN2s4BwyXl5eXMQOvqDCJbiMWi3CXl5eXl5UKi2kbL7g/Mb+XlwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" rel="icon" type="image/x-icon" />
+    <!--Links for JavaScript content-->
+    <script src="../js/script.js"></script>
+    <script src="../js/date.js"></script>
+    <script src="../js/main.js"></script>
+</head>
+<body>
+    <header >
+        
+        <img src="../images/logo.png" alt="logo image">
+        <h1>Atmosfera Condition</h1>
+        <div class="sub-header">
+            <h2>Reliable information</h2>
+        </div>
+      </header>
+  
+      <!--Navigation-->
+      <nav class="clearfix">
+      <button onclick="toglleMenu()" >&#9776; Menu</button>
+    <ul id="primaryNav" class="hide">
+        <li class="active"><a href="../html/preston-4.html">Home</a></li>
+        <li ><a href="../../Lesson7/html/gallery-7.html">Gallery</a></li>
+        <li ><a href="*">Meridian</a></li>
+        <li><a href="*">Nampa</a></li>
+    </ul>
+      </nav>
+      <main>
+        <picture>
+         <img class="gallery" src="../images/sky-3335585_640.jpg" alt="weather">
+        </picture>
+       <picture>
+           <img class="gallery" src="../images/summer.jpg" alt="summer">
+       </picture>
+       <picture>
+           <img class="gallery" src="../images/summer2.jpg" alt="summer">
+       </picture>
+       <picture>
+           <img class="gallery" src="../images/benches-560435_640.jpg" alt="fall">
+       </picture>
+       <picture>
+           <img class="gallery" src="../images/tree-99852_640.jpg" alt="fall">
+       </picture>
+       <picture>
+           <img class="gallery" src="../images/winter-4698763_640.jpg" alt="winter">
+       </picture>
+       <picture>
+           <img class="gallery" src="../images/winter-landscape-2995987_640.jpg" alt="winter">
+       </picture>
+       <picture>
+           <img class="gallery" src="../images/ladybug-3475779_640.jpg" alt="spring">
+       </picture>
+       <picture>
+           <img class="gallery" src="../images/magnolia-2218788_640.jpg" alt="spring">
+       </picture>
+     
+      </main>
+
+     <footer class="size" >
+        &#9825;2021 | Paola M. Herrera | Honduras | <a class="link" href="https://www.byui.edu/online">BYU online learning</a> | <span  id="date"></span>
+    </footer>
+    
+</body>
+</html>
