@@ -103,6 +103,15 @@ nav ul li a:hover{
     clear: both;
   }
 
+  /*style for the galerry*/
+
+  main{
+    max-width:950px;
+    margin: auto;
+  }
+
+   
+
    /*Footer*/
 
    footer{
