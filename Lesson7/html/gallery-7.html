@@ -19,6 +19,7 @@
     <!--Links for JavaScript content-->
     <script src="../js/script.js"></script>
     <script src="../js/date.js"></script>
+    <script src="../js/lazy.js"></script>
     <script src="../js/main.js"></script>
 </head>
 <body>
@@ -43,58 +44,48 @@
       </nav>
        
       <main class="clearfix">
-        <div class="gallery">
-        <figure>
-        <picture>
-         <img  src="../images/sky-3335585_640.jpg" alt="weather">
-        </picture>
-         </figure> 
-         <figure>
-       <picture>
-           <img  src="../images/summer.jpg" alt="summer">
-       </picture>
-        </figure>
-        <figure>
-       <picture>
-           <img  src="../images/summer2.jpg" alt="summer">
-       </picture>
-       </figure>
-        <figure>
-       <picture>
-           <img  src="../images/benches-560435_640.jpg" alt="fall">
-       </picture>
-       </figure>
-        <figure>
-       <picture>
-           <img  src="../images/tree-99852_640.jpg" alt="fall">
-       </picture>
-       </figure>
-         <figure>
-       <picture>
-           <img  src="../images/winter-4698763_640.jpg" alt="winter">
-       </picture>
-        </figure>
-        <figure>
-       <picture>
-           <img  src="../images/winter-landscape-2995987_640.jpg" alt="winter">
-       </picture>
-       </figure>
-        <figure>
-       <picture>
-           <img  src="../images/ladybug-3475779_640.jpg" alt="spring">
-       </picture>
-        </figure>
-        <figure>
-       <picture>
-           <img  src="../images/magnolia-2218788_640.jpg" alt="spring">
-       </picture>
-        </figure>
-       </div>
+        <div class="container clearfix">
+           <div class="item1"><img src="../images/sky.jpg" data-src="images/sky.jpg" alt="images">
+            <p class="title">Idaho Preston.</p>
+    
+           </div>
+           <div class="item2"> <img src="../images/summer.jpg" data-src="images/summer.jpg" alt="images">
+            <p class="title">Summer Sunrise.</p>
+           </div>
+           <div class="item3"> <img src="../images/summer2.jpg" data-src="images/summer2.jpg" alt="images">
+             <p class="title">Summer walk.</p>
+           </div>
+           <div class="item4"><img src="../images/benches.jpg" data-src="images/benches.jpg" alt="images">
+             <p class="title">Autumn coming.</p>
+             </div>
+           <div class="item5"><img src="../images/tree.jpg" data-src="images/tree.jpg" alt="images">
+            <p class="title">Lovely fall.</p>
+           </div>
+           <div class="item6">
+             <img src="../images/winter.jpg" data-src="images/winter.jpg" alt="images">
+             <p class="title">Snow winter.</p>  
+           </div>
+           <div class="item7">
+            <img src="../images/winterl.jpg" data-src="images/winterl.jpg" alt="images">
+             <p class="title">Sunrise winter.</p>
+            </div>
+           <div class="item8">
+               <img src="../images/magnolia.jpg" data-src="images/magnolia.jpg" alt="images">
+               <p class="title">Spring coming.</p>
+           </div>
+           <div class="item9">
+               <img src="../images/ladybug.jpg" data-src="images/ladybug.jpg" alt="images">
+               <p class="title">Here is spring.</p>
+           </div>    
+        </div>
+
       </main>
 
      <footer class="size" >
         &#9825;2021 | Paola M. Herrera | Honduras | <a class="link" href="https://www.byui.edu/online">BYU online learning</a> | <span  id="date"></span>
     </footer>
+
+    <script src="../js/date.js"></script>
     
 </body>
 </html>

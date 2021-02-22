@@ -109,8 +109,44 @@ nav ul li a:hover{
     max-width:950px;
     margin: auto;
   }
+  
+    /*Style for the gallery*/ 
 
-   
+   .container{
+     display: block;
+     padding: 1em;
+   }
+
+
+
+   div img{
+    max-width: 100%;
+     border: 1px solid #ddd;
+     border-radius: 4px;
+     padding: 11px;
+     width: 600px;
+   }
+
+
+    p.title{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1em;
+        padding-left: 7.5em;
+    
+    }
+
+    img:hover{
+        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    }
+
+    div img[data-src]{
+        filter: blur(0.2em);
+    }
+    
+    div img{
+        filter: blur(0em);
+        transition: filter 0.5s;
+    }
 
    /*Footer*/
 
