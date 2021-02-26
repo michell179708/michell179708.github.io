@@ -37,13 +37,13 @@ tr td:last-child{
 th{
     color: white;
     background-color:#628ca6;
-    
+    font-family: 'Ubuntu', sans-serif;
   
 }
 
 th,td{
     padding: 8px;
-    padding-left: 1em;
+    text-align: center;
 }
 
 .first{
@@ -76,5 +76,7 @@ th,td{
 }
 
 .footer{
-    background-color: #7fb9c2;
+        background-color: #7fb9c2;
+        
 }
+
