@@ -119,6 +119,12 @@ nav ul li a:hover{
     
 }
 
+     /*style for the column of the town*/
+     div.card{
+       display: block;
+       margin: auto;
+     }
+
 
 .section-weather{
     display: block;

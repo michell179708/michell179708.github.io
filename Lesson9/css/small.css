@@ -10,11 +10,6 @@ h1{
     
 }
 
-h3{
-    font-size:1.8em ;
-    font-family: 'Lora', serif;
-    text-align: center;
-}
 
 h4,h5{
     font-size:1.5em;
@@ -104,6 +99,103 @@ nav ul li a:hover{
     clear: both;
   }
 
+  /*Content*/
+
+
+  main{
+    max-width:950px;
+    margin: auto;
+}
+  
+
+/*style for the town columns*/
+
+h2,h3{
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+main{
+    max-width:950px;
+    margin: auto;
+}
+
+.home-image{
+    width: 100%;
+}
+
+div.cards{
+    display: block;
+    margin: auto;
+    padding: 2%;
+}
+
+img.imagen{
+    width: 96%;
+  padding: 2%;
+  max-width: 400px;
+}
+
+section.card-section{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 60%);
+    background-color: antiquewhite;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.line{
+    font-size: 3em;
+    font-family: 'Lora', serif;
+    text-align: center; 
+}
+
+.line-one{
+    text-align: center;
+}
+ li{
+    padding: 1em;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif; 
+}
+div.event{
+    display: block;
+    padding: 8em;
+    background-color: antiquewhite;
+    
+}
+ 
+/*Information*/
+.information{
+    display: block;
+    padding-left: 1em;
+    
+  }
+
+  .image-information{
+      width:100%;
+      height: auto;
+      padding: 1em;
+   
+  }
+
+  .image-social{
+      display: inline;
+      width:70px;
+      padding: 0.30em;
+  }
+
+  .i{
+    font-family: 'Montserrat', sans-serif;
+    font-size:1.3em;
+  }
   
   /*Footer*/
 

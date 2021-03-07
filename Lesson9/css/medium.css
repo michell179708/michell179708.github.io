@@ -48,4 +48,66 @@
   .size{
       font-size: 18px;
   }
+
+
+  /*style for the town column*/
+    
+  section.card-section{
+      display: flex;
+      flex-direction: row;
+      padding-left: 1em;
+  }
+   
+
+  div.event{
+      display:inline-block;
+       padding: 15em;  
+    }
+
+    .line{
+        font-size: 5em;
+    }
+
+    .line-one{
+        font-size: 2em;
+    }
+
+    li{
+        font-size: 2em;
+    }
+
+   /*article*/
+
+   .image-article{
+    width: 450px;
+    float: left;
+    margin-right: 1em;
+
+}
+
+/*Information*/
+
+  .information{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding: 1.5em;
+   
+  }
+
+.image-information{
+    width:500px;
+    margin-right: 1em;
+
+}
+
+
+.image-social{
+    width:70px;
+    padding: 0.30em;
+}
+
+}
+
+.anuncio{
+  display: block;
 }

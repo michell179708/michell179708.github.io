@@ -4,4 +4,44 @@
     nav ul li a{
         padding: 1.5em;
     }
+
+    /*style for the column of the town*/
+/*
+   div.cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 1.5rem;
+        padding-bottom: 0;
+    }
+     
+    
+    img.imagen{
+        width: 50%;
+        
+        display: block;
+    }
+     
+    div.text{
+        display: block;
+    }
+    */
+
+    div.event{
+        
+        display: inline-flex;
+        padding: 18em;
+        margin-bottom: 3em;
+    }
+
+    .line{
+        font-size: 3em;
+    }
+
+    .line-one{
+     font-size: 2em;
+    }
+    li{
+        font-size: 1em;
+    }
 } /*end large */

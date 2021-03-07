@@ -1,47 +1,57 @@
-const requestURL= "https://michell179708.github.io/Lesson9/js/info.town.json"
+const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 
 fetch(requestURL)
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
-   const town = jsonObject["town"];
-  for (let i = 0; i < town.length; i++ ) {
+    .then(function (response) {
+        return response.json();
+    })
 
-        let information = document.createElement("section");
-        let h2 = document.createElement("h2");
-        let h4 = document.createElement("h4");
-        let p = document.createElement("p");
-        let image =document.createElement("img");
+.then(function (jsonObject) {
+    // check for json object
+    // console.table(jsonObject);
 
-        h2.textContent = town[i].name;
-        h4.textContent = town[i].motto;
-
-        p.textContent = "Year founded:" + town[i].yearFounded + "Population:" + town[i].currentPopulation
-
-        image.setAttribute("src", town[i].imageurl);
-        information.appendChild(h2);
-        information.appendChild(h4);
-        information.appendChild(p);
-        information.appendChild(image);
-
-        document.querySelector("div.information").appendChild(information);
-
-
+const townsdata = jsonObject['towns'];
     
-   
+// loop through the array
+for (let i=0; i < townsdata.length; i++) {
+    // declare each variable
+    let card = document.createElement('section');
+    let h2 = document.createElement('h2');
+    let h3 = document.createElement('h3');
+    let year = document.createElement('p');
+    let population = document.createElement('p');
+    let annual = document.createElement('p');
+    let image = document.createElement('img');
+    let text= document.createElement('div')
+    
+
+    if (townsdata[i].name == 'Preston'|| townsdata[i].name == 'Fish Haven' || townsdata[i].name == 'Soda Springs') {
+    
+    h2.textContent = townsdata[i].name;
+    h3.textContent = "Quote" + " " + townsdata[i].motto;    
+    year.textContent = "Year Established:" + " " + townsdata[i].yearFounded;
+    population.textContent = "Current Population:" + " " + townsdata[i].currentPopulation;
+    annual.textContent = "Annual Rainfall:" + " " +  townsdata[i].averageRainfall;
+    image.setAttribute('src', `../imagen/${townsdata[i].photo}`);
+    image.setAttribute('alt', townsdata[i].name);
+    image.setAttribute('class', 'imagen');
+    card.setAttribute('class', "card-section" );
+    text.setAttribute('class', 'text');
 
 
+        card.appendChild(text);
+        text.appendChild(h2);
+        text.appendChild(h3);
+        text.appendChild(year);
+        text.appendChild(population);
+        text.appendChild(annual);
+        card.appendChild(image);}
 
-
-
-
-
-
-
+    else {
+        card.setAttribute('class', 'hide');
     }
+        
+     document.querySelector('div.cards').appendChild(card);
+}
 });
 
-  
 
