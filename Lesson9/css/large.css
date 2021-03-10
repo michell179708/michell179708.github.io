@@ -27,6 +27,20 @@
     }
     */
 
+
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+
+    .card-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /************************************************************************/
+
     div.event{
         
         display: inline-flex;

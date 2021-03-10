@@ -14,6 +14,7 @@ const townsdata = jsonObject['towns'];
 // loop through the array
 for (let i=0; i < townsdata.length; i++) {
     // declare each variable
+    let section = document.createElement("div");
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let h3 = document.createElement('h3');
@@ -37,20 +38,26 @@ for (let i=0; i < townsdata.length; i++) {
     card.setAttribute('class', "card-section" );
     text.setAttribute('class', 'text');
 
-
+        
         card.appendChild(text);
         text.appendChild(h2);
         text.appendChild(h3);
         text.appendChild(year);
         text.appendChild(population);
         text.appendChild(annual);
-        card.appendChild(image);}
-
-    else {
-        card.setAttribute('class', 'hide');
+        card.appendChild(image);
+        document.querySelector('div.cards').appendChild(card);
     }
+    else {  
+       // card.setAttribute('class', 'hide');
+    }
+
+    
         
-     document.querySelector('div.cards').appendChild(card);
+
+     
+
+     
 }
 });
 

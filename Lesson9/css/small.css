@@ -129,27 +129,34 @@ main{
     width: 100%;
 }
 
-div.cards{
+.card{
     display: block;
-    margin: auto;
-    padding: 2%;
-}
-
-img.imagen{
-    width: 96%;
-  padding: 2%;
-  max-width: 400px;
-}
-
-section.card-section{
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 60%);
-    background-color: antiquewhite;
     text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    padding: ;
+    max-width: 100%;
+    text-align: center;
+    
 }
+
+.card-section{
+    margin: 5px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5em;
+    justify-items: center;
+    align-items: center;
+    
+}
+.card-section:nth-child(even) img{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.card-section:nth-child(even) .text{
+    grid-column: 2;
+}
+/*  events style*/
 
 .line{
     font-size: 3em;

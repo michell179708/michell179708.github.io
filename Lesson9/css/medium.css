@@ -51,12 +51,42 @@
 
 
   /*style for the town column*/
-    
+    /*
   section.card-section{
       display: flex;
       flex-direction: row;
       padding-left: 1em;
   }
+*/
+
+  div.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    padding: 2em;
+}
+
+img.imagen{
+    width: 96%;
+  padding: 2%;
+  max-width: 400px;
+}
+
+section.card-section{
+    display: flex;
+    flex-direction: column;
+}
+
+/* section.card-section{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 60%);
+    background-color: antiquewhite;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+} */
+
    
 
   div.event{
