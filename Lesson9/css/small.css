@@ -150,7 +150,7 @@ main{
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 60%);
     background-color: antiquewhite;
     margin: 5px;
-   
+    margin-bottom: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0.5em;
