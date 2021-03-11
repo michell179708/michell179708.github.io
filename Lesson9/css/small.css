@@ -166,33 +166,30 @@ main{
 .card-section:nth-child(even) .text{
     grid-column: 2;
 }
-/*  events style*/
+    /*article*/
 
-.event{
-   
-    margin-top: 2em;
-}
-
-.line{
-    font-size: 3em;
-    font-family: 'Lora', serif;
-    text-align: center; 
-}
-
-.line-one{
-    text-align: center;
-}
- li{
-   
-    font-size: 1em;
-    font-family: 'Montserrat', sans-serif; 
-}
-div.event{
-    display: block;
-    padding: 8em;
-    background-color: antiquewhite;
+    .image-article{
+        float: none;
+        width:100%;
+        height: auto;
+       
+    }
     
-}
+     .article{
+      margin-top: 1.5em;
+      padding:2em;
+      background-color: antiquewhite;
+      margin-bottom: 2em;
+     }
+  
+    .article-paragraph{
+      margin-top: 1em;
+      font-size:1em;
+      font-family: 'Montserrat', sans-serif;
+    
+    }
+  
+
  
 /*Information*/
 .information{

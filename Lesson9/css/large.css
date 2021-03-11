@@ -28,7 +28,7 @@
     */
 
 
-    .cards{
+   div.cards{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         
@@ -55,7 +55,7 @@
     .line-one{
      font-size: 2em;
     }
-    li{
+    li .lista{
         font-size: 1em;
     }
 } /*end large */
