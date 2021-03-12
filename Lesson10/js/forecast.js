@@ -18,14 +18,14 @@ fetch(apiURL)
 
     //calculate the windchild
     let t = parseFloat(document.getElementById("temp").innerHTML);
-    let w = parseFloat(document.getElementById("speed").innerHTML);
+    let s = parseFloat(document.getElementById("speed").innerHTML);
      
-    if (t <= 50 && w >= 3) {
+    if (t <= 50 && s >= 3) {
       let f =
         35.74 +
         0.6215 * t -
-        35.75 * Math.pow(w, 0.16) +
-        0.4275 * t * Math.pow(w, 0.16);
+        35.75 * Math.pow(s, 0.16) +
+        0.4275 * t * Math.pow(s, 0.16);
     
       f = document.getElementById("windchill").innerHTML =
         f.toFixed(2) + "&deg; " + "F";
