@@ -55,31 +55,17 @@
 
   div#five-day{
      display: block;
-     width:100%;
+   
      
   }
 
-  
-
-  .center{
-    margin: 25px 50px 75px 100px;
-  }
-
- 
-
-  .icon-fiveday{
-      width:150px;
+   img.iconTable{
+      width:5em;
+      padding-left: 6em;
       
   }
 
-  .table{
-     
 
-      padding-top: 6em;
-    
-    
-     
-  }
 
   .color-table{
       background-color: antiquewhite;

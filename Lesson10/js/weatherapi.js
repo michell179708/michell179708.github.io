@@ -8,8 +8,8 @@ fetch(apiURL)
     
     const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
     const desc = jsObject.weather[0].description;
-    document.getElementById("imagesrc").textContent = imagesrc;
-    document.getElementById("icon").setAttribute("src",imagesrc);
-    document.getElementById("icon").setAttribute("alt",desc);
+    document.getElementById("imagesrc"+(day+1)).textContent = imagesrc;
+    document.getElementById("icon"+(day+1)).setAttribute("src",imagesrc);
+    document.getElementById("icon"+(day+1)).setAttribute("alt",desc);
   });
 
