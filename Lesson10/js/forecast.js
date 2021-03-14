@@ -68,7 +68,7 @@ fetch(apiURL)
      //code for the icon images
     const imagesrc = `https://openweathermap.org/img/w/${Fivedays[day].weather[0].icon}.png`;
     const desc = Fivedays[day].weather[0].description;
-    document.getElementById("imagesrc"+(day+1)).textContent = imagesrc;
+    
     document.getElementById("icon"+(day+1)).setAttribute("src",imagesrc);
     document.getElementById("icon"+(day+1)).setAttribute("alt",desc);
 
