@@ -17,7 +17,9 @@ h4,h5{
 
 }
 
-
+h2#title{
+    font-family: 'Lora', serif;
+}
 
 
 .sub-header{
@@ -50,7 +52,7 @@ header{
 
 
 nav button{
-    margin: .2rem 2%;
+    margin: .2em 2%;
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
