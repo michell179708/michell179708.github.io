@@ -77,15 +77,3 @@ fetch(apiURL)
 });
 
 
-//code for the events section 
-const eventURL = "https://byui-cit230.github.io/weather/data/towndata.json";
-
-fetch(eventURL)
-  .then((response) => response.json())
-  .then((jsObject) => {
-   // console.log(jsObject);
-
-   const townsdata = jsonObject['towns'];
-
-  
-  });
