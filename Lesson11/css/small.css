@@ -119,7 +119,7 @@ nav ul li a:hover{
     
 }
 
-     /*style for the column of the town*/
+ /*style for the column of the town*/
      div.card{
        display: block;
        margin: auto;
@@ -153,6 +153,18 @@ nav ul li a:hover{
      div#five-day{
        display: none;
      }
+
+
+    /*style for the section events*/ 
+
+    div.events{
+        background-color: antiquewhite;
+        padding: 1em;
+        margin-top: 2em;
+    }
+
+    
+
      
      /*article*/
 

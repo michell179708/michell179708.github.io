@@ -59,6 +59,10 @@
      
   }
 
+   div.center{
+       margin-left: 2em;
+   }
+
    img.iconTable{
       width:5em;
       padding:2em;
@@ -90,6 +94,9 @@
     padding: 1.5em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
+
+
+  
 
   /*article*/
 
