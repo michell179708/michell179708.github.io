@@ -17,8 +17,9 @@ h3{
 }
 
 h4,h5{
-    font-size:1.5em;
+    font-size:2em;
     font-family: 'Lora', serif;
+    text-align: center;
 
 }
 
@@ -138,6 +139,7 @@ nav ul li a:hover{
 }
   
   .paragraph{
+      text-align: start;
       font-size:1.5em;
       font-family: 'Montserrat', sans-serif; 
   }
@@ -164,7 +166,11 @@ nav ul li a:hover{
     }
 
     
-
+     p{
+        font-size:1.3em;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+     }
      
      /*article*/
 
@@ -181,8 +187,8 @@ nav ul li a:hover{
     background-color: antiquewhite;
    }
 
-  .article-paragraph{
-    margin-top: 1em;
+  p#article-paragraph{
+      text-align: start;
     font-size:1em;
     font-family: 'Montserrat', sans-serif;
   }
