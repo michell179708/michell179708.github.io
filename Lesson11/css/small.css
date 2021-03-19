@@ -188,7 +188,8 @@ nav ul li a:hover{
    }
 
   p#article-paragraph{
-      text-align: start;
+    
+    text-align: start;
     font-size:1em;
     font-family: 'Montserrat', sans-serif;
   }
