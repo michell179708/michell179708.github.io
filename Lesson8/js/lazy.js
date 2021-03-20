@@ -1,9 +1,6 @@
 let imagesToLoad = document.querySelectorAll("img[data-src]");
  
-const imageOption= {
-  threshold=0,
-  rootMargin:"0px,0px,50px,0px"
-}
+
 
 const loadImages = (image) => {
     image.setAttribute("src",image.getAttribute("data-src"));
