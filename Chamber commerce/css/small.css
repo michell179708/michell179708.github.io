@@ -1,0 +1,17 @@
+
+
+/**************Style for the Fonts********************/
+
+h1{
+    font-family: 'Laila', sans-serif;
+    font-size: 2em;
+    padding-top: 1em;
+    padding-left: 3em;
+}
+
+
+img.logo-home{
+ float: left;
+ width: 200px;
+
+}
