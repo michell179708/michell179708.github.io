@@ -1,5 +1,6 @@
 @media only screen and (min-width: 32.5em){
     
+    /*****************Header****************************/
 
 
     /***************Navigation**********************/
@@ -7,12 +8,23 @@
     nav button{
         display: none;
     }
+    
+    nav ul.hide{
+     display: block;
+    }
+
+    nav ul{
+        margin-left: 1%;
+    }
 
     nav ul li{
         float: left;
     }
 
     nav ul li a{
+        border: none;
+        border-right: 1px solid rgb(0,0,0,0.3);
+        padding: 0.9em ;
         
     }
 }

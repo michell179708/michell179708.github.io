@@ -61,6 +61,10 @@ nav ul li a:hover{
     background-color: #a4161a;
 }
 
+nav ul.hide{
+    display: none;
+}
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
