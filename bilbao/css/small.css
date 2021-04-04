@@ -274,3 +274,16 @@ nav ul.hide{
     font-family: "lato",sans-serif;
     text-align: justify;
   }
+
+  footer.footer{
+    background-color:#ba181b ;
+    padding: 0.5em;
+    font-family: "lato",sans-serif;
+    margin-top: 1.5em;
+    padding-left: 20em;
+  }
+
+  a.link{
+   text-decoration: none;
+   color:#cbf3f0 ;
+  }
