@@ -15,6 +15,14 @@ h1#title-gallery{
     text-align: center;
 }
 
+h1#title-city{
+  text-align: center;
+}
+
+h2#title-parties{
+  font-size: 1.5em;
+}
+
 
 
 img.logo-home{
@@ -201,4 +209,68 @@ nav ul.hide{
    max-width: 100%;
    width: 1000px;
     
+  }
+
+  p.paragraph-city{
+    font-family: "lato", sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    background-color: #cbf3f0;
+    padding: 1.5em;
+    
+  }
+
+  .column{
+    display: block;
+  
+  }
+
+ .row{
+   background-color: #a4c3b2;
+   padding: 1.5em;
+ }
+
+  img.imagen{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+  }
+
+  h2{
+    font-family: 'Laila', sans-serif;
+    font-size: 2.3em;
+  }
+
+  h3{
+    font-family: 'Laila', sans-serif;
+    font-size: 1em;
+    text-align: center;
+  }
+
+  p.paragraph-curiosidades{
+    font-family: "lato",sans-serif;
+    font-size: 1em;
+    padding-left: 1.5em;
+   text-align: justify;   
+  }
+ 
+   section.events{
+     margin-top: 2em;
+     background-color:#cbf3f0 ;
+     padding: 1.5em;
+   }
+
+   h3#title-events{
+     margin-top: 2em;
+   }
+
+  img.image-calendar{
+    max-width: 100%;
+    
+  }
+  p.paragraph-events{
+    font-family: "lato",sans-serif;
+    text-align: justify;
   }

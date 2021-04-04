@@ -9,4 +9,24 @@
     nav ul li a{
          padding: .6rem 1rem;
      }
+
+     /********************style for the page city****************************/
+
+     img.imagen{
+        width: 200px;
+      }
+
+     .column {
+        float: left;
+        width: 25%;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      
 }
