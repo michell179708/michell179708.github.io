@@ -46,8 +46,35 @@
         
     }
 
-   /***********style for the page city***************/
-     
+   /***********about us***************/
+
+  img.image-about{
+      float: left;
+  }
+
   
+  .column-dos {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  section.container-dos{
+   
+    padding-left: 8em;
+  }
     
+ section.container-tres{
+     padding-top: 2em;
+ } 
+
+ 
+
 }

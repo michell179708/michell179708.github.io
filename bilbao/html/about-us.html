@@ -25,20 +25,80 @@
 
 <!---Navigation-->
 <nav class="clearfix">
-    <ul>
-        <li><a href="../html/home.html">Home</a></li>
+    <button onclick="toggleMenu()" >&#9776; Menu</button>
+    <ul id="primaryNav" class="hide">
+        <li class="active"><a href="../html/home.html">Home</a></li>
         <li><a href="../html/city.html">City</a></li>
         <li><a href="../html/directory.html">Directory</a></li>
-        <li class="active "><a href="../html/about-us.html">About us</a></li>
+        <li><a href="../html/about-us.html">About us</a></li>
         <li><a href="../html/contact-information.html">Contact Us</a></li>
     </ul>
 </nav>
 
 <body>
+    <main class="clearfix">
+        <section>
+            <h2>The comminuted Chamber Commerce</h2>
+            <img src="../images/about us.jpg" alt="image" class="image-about">
+             <h3 class="title-about">Our purpose</h3>
+            <p class="paragraph-about">We are a comminuted or a business network located in Bilbao- Getxo Spain is to further the interests of businesses.
+                The member are citizens who want to improve her business the community chamber of the commerce acts as a spokesman for the business who convert the group thinking into action and promote a specific product or services type that can be more beneficial for the local businesses associate to this site.
+                </p>
+
+            <h3 class="title-about">Our goals</h3> 
+            <p class="paragraph-about">Promote  with responsibility,confidence and professional methods to improve our business network. <br>
+            Promote our business wealth as a city. <br>    
+            Help our communited to improve their business with professional techniques. <br>
+
+            </p>
+        </section>
+
+        <div class="container">
+           
+            <div class="column-dos">
+                <section class="container-dos">
+                <h3 class="title-dos">Contact Information</h3>
+                <p class="i" >&#128204; Calle Gaztelumendi,Portal 18</p>
+                <p class="i">&#9742; &nbsp;(+34)612-85214</p>
+                <p class="i">&#9993; &nbsp;getxoBilbao@gmail.com</p>
+
+                <h3 class="title-dos">Our board Director</h3>
+                <p class="i">&#9742; &nbsp; General Director: (+34)623-55214</p>
+                <p class="i">&#9742; &nbsp; Vice Director: (+34)689-55414</p>
+                <p class="i">&#9742; &nbsp; General Manager: (+34)623-89564</p>
+
+            </section>
+
+            </div>
+          
+           
+           <div class="column-dos">
+               <section class="container-tres">
+                   
+                <form method="GET" action="">
+                    <fieldset>
+                        <legend id="hola" >Contac Us</legend>
+                        <label class="hola">Full Name (only alpha characters):<input  type="text" name="fullname" required pattern="[A-Za-z19]{5}" class="color"></label>
+                        <label class="hola">Email: <input type="email" name="email" required class="color"></label>
+                        <div class="hola">Comments:</div>
+                       <textarea id="area" name="comment" rows="4" cols="50" >
+                       </textarea>
+                    </fieldset>
+                    <input  type="submit" value="Contac Us" class="button">
+                </form>
+               </section>
+           </div>
+
+
+        </div>
+
+    </main>
    
     <footer class="footer">
         &#9825 2021 | Paola M. Herrera | Honduras | <a  class="link" href="https://www.byui.edu/online">BYU online learning</a> | Last Updated: <span  id="updated"></span>
     </footer>
+    <script src="../js/toggle.js"></script>
     <script src="../js/update.js"></script>
+
 </body>
 </html>
