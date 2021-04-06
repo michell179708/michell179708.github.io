@@ -276,11 +276,12 @@ nav ul.hide{
   }
 
   footer.footer{
+    display: block;
     background-color:#ba181b ;
     padding: 0.5em;
     font-family: "lato",sans-serif;
     margin-top: 1.5em;
-    padding-left: 20em;
+    
   }
 
   a.link{
@@ -345,6 +346,7 @@ nav ul.hide{
  form label.hola{
    display: block;
   padding: .50rem;
+  font-family: "lato", sans-serif;
  }
 
  form label.hola input{
@@ -364,4 +366,5 @@ nav ul.hide{
    padding:.75rem 1.5rem ;
    width: 96%;
    max-width:20rem ;
+   font-family: "lato",sans-serif;
  }
