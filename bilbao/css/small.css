@@ -368,3 +368,42 @@ nav ul.hide{
    max-width:20rem ;
    font-family: "lato",sans-serif;
  }
+
+
+ /*************************Style for the social media****************************************/
+
+  *{
+  
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+ div.social{
+   position: fixed;
+   left: 0;
+   top: 250px;
+   z-index: 2000;
+ }
+
+ div.social ul{
+   list-style: none;
+ }
+
+ div.social ul li a{
+   display: inline-block;
+   color: white;
+   background-color:#ffbf69;
+   padding: 10px 15px;
+   text-decoration: none;
+   -webkit-transition: all 500ms ease;
+   -o-transition:all 500ms ease;
+   transition:all 500ms ease;
+ }
+
+ div.social ul li a:hover{
+   padding: 10px 30px;
+   background: rosybrown;
+ }
+
+ 
