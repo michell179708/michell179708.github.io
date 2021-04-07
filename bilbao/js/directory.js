@@ -20,7 +20,7 @@ fetch(requestURL)
   let photo = document.createElement("img");
   let text = document.createElement("div")
 
- if(data[i].name == 'Oliver Design'|| data[i].name == 'Hotel Tamarises' || data[i].name == 'Ros'){
+
     
   name.textContent = data[i].name;
   location.textContent = "Location:" +" "+ data[i].location;
@@ -47,7 +47,7 @@ fetch(requestURL)
   seccion.appendChild(photo);
   document.querySelector("div.directory").appendChild(seccion);
 
- }
+ 
 
 }
 

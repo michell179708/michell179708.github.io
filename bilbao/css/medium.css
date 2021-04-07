@@ -86,4 +86,10 @@
      grid-template-columns: 1fr 1fr 1fr;
  }
 
+/******************************Style for the page Home***************************************************/
+div.directory{
+ display: grid;
+ grid-template-columns: 1fr 1fr ;   
+}  
+
 }
