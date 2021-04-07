@@ -4,7 +4,7 @@
     "name":"Oliver Design",
     "photo":"oliver.jpg",
     "location": "CALLE ESTRADA DILIZ, 33 in the municipality of GETXO, of BIZKAIA.",
-    "social objective":"Engineering technical services and other activities related to technical advice",
+    "social":"Engineering technical services and other activities related to technical advice",
     "information":"The company has employees between 25 and 50. Among the available balances, the last one was deposited in the commercial register in 2019. The sales contributed to the balance sheet are: Between € 6 and € 30 million.",
     "URL":"www.oliverdesign.es"
 
@@ -14,7 +14,7 @@
     "name":"Solarpack Corporation Technology",
     "photo":"solarpack.jpg",
     "location": "AVENIDA ALGORTA, 16 - FLAT 3 in the municipality of GETXO, of BIZKAIA.",
-    "social objective":"Project management and development of electricity generation, for the photovoltaic solar energy sector.",
+    "social":"Project management and development of electricity generation, for the photovoltaic solar energy sector.",
     "information":"The company has employees between 50 and 250. Among the available balances, the last one was deposited in the commercial register in 2019. The sales contributed to the balance sheet are greater than € 30 million.",
     "URL":"www.solarpack.es"
   },
@@ -23,7 +23,7 @@
     "name":"Gastronimia y Regalos SI",
     "photo":"gastronomia.jpg",
     "location": "AVENIDA LOS CHOPOS, 49 - Floor 1D in the municipality of GETXO, of BIZKAIA.",
-    "social objective":"Sale of all kinds of sausages and alcoholic beverages.",
+    "social":"Sale of all kinds of sausages and alcoholic beverages.",
     "information":"The company has employees between 5 and 25. Among the available balances, the last one was deposited in the commercial register in 2019. The sales contributed to the balance sheet are between € 1.5 and € 3 million.",
     "URL":" www.gastronomiayregalos.com"
 
@@ -33,7 +33,7 @@
   "name":"Hotel Tamarises",
   "photo":"tamarises.jpg",
   "location": "CALLE MUELLE EREAGA, 4 in the municipality of GETXO, of BIZKAIA.",
-  "social objective":"Restaurant and cafeteria with traditional food.",
+  "social":"Restaurant and cafeteria with traditional food.",
   "information":"The company has employees between 25 and 50. Among the available balances, the last one was deposited in the commercial register in 2019. The sales contributed in the balance sheet are between € 3 and 6 million.",
   "URL":"www.tamarisesizarra.com"
 },
@@ -42,7 +42,7 @@
   "name":"Ros",
   "photo":"ros.jpg",
   "location": "AVENIDA ZUGATZARTE, 8 - 3 in the municipality of GETXO, of BIZKAIA.",
-  "social objective":"Advertising and marketing services.",
+  "social":"Advertising and marketing services.",
   "information":"The company has employees between 25 and 50. Of the available balances, the last one was deposited in the commercial register in 2019. The sales contributed to the balance are between € 3 and € 6 million.",
   "URL":"www.ros.es"
 },
@@ -51,7 +51,7 @@
   "name":"Sarene Xxi Limited Company",
   "photo":"sarene.jpg",
   "location": "CALLE LAS MERCEDES, 31 - DTPO 5 Y 6 in the municipality of GETXO, of BIZKAIA.",
-  "social objective":"4-star hotel with rooms for events.",
+  "social":"4-star hotel with rooms for events.",
   "information":"The company has employees between 25 and 50. Of the available balances, the last one was deposited in the commercial register in 2019. The sales contributed to the balance are between € 3 and € 6 million.",
   "URL":"www.hotel-igeretxe.com"
 },
@@ -60,7 +60,7 @@
   "name":"Dormideo",
   "photo":"dormideo.jpg",
   "location": "CALLE PAULINO MENDIVIL, 7 in the municipality of GETXO, of BIZKAIA.",
-  "social objective":"The manufacture, marketing, distribution of mattresses, bed bases, home furnishings, reflexotherapy machines, all their accessories and other similar or derived products.",
+  "social":"The manufacture, marketing, distribution of mattresses, bed bases, home furnishings, reflexotherapy machines, all their accessories and other similar or derived products.",
   "URL":"www.dormideo.com"
 }
 
