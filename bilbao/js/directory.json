@@ -12,7 +12,7 @@
 },
   {
     "name":"Solarpack Corporation Technology",
-    "photo":"solarpack.jpg",
+    "photo":"solarpack.png",
     "location": "AVENIDA ALGORTA, 16 - FLAT 3 in the municipality of GETXO, of BIZKAIA.",
     "social":"Project management and development of electricity generation, for the photovoltaic solar energy sector.",
     "information":"The company has employees between 50 and 250. Among the available balances, the last one was deposited in the commercial register in 2019. The sales contributed to the balance sheet are greater than € 30 million.",
@@ -20,8 +20,8 @@
   },
 
   {
-    "name":"Gastronimia y Regalos SI",
-    "photo":"gastronomia.jpg",
+    "name":"Gastronomia y Regalos SI",
+    "photo":"gastronomia.png",
     "location": "AVENIDA LOS CHOPOS, 49 - Floor 1D in the municipality of GETXO, of BIZKAIA.",
     "social":"Sale of all kinds of sausages and alcoholic beverages.",
     "information":"The company has employees between 5 and 25. Among the available balances, the last one was deposited in the commercial register in 2019. The sales contributed to the balance sheet are between € 1.5 and € 3 million.",
@@ -40,7 +40,7 @@
 
 {
   "name":"Ros",
-  "photo":"ros.jpg",
+  "photo":"ros.jpeg",
   "location": "AVENIDA ZUGATZARTE, 8 - 3 in the municipality of GETXO, of BIZKAIA.",
   "social":"Advertising and marketing services.",
   "information":"The company has employees between 25 and 50. Of the available balances, the last one was deposited in the commercial register in 2019. The sales contributed to the balance are between € 3 and € 6 million.",
@@ -58,7 +58,7 @@
 
 {
   "name":"Dormideo",
-  "photo":"dormideo.jpg",
+  "photo":"dormideo.png",
   "location": "CALLE PAULINO MENDIVIL, 7 in the municipality of GETXO, of BIZKAIA.",
   "social":"The manufacture, marketing, distribution of mattresses, bed bases, home furnishings, reflexotherapy machines, all their accessories and other similar or derived products.",
   "URL":"www.dormideo.com"
