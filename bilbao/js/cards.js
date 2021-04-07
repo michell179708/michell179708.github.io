@@ -16,14 +16,35 @@ fetch(requestURL)
   let information = document.createElement("p");
   let location = document.createElement("p");
   let social = document.createElement("p");
-  let URL = document.createElement("p")
-  let photo = document.createElement("photo");
+  
+  let photo = document.createElement("img");
+  let text = document.createElement("div")
 
  if(data[i].name == 'Oliver Design'|| data[i].name == 'Hotel Tamarises' || data[i].name == 'Ros'){
     
   name.textContent = data[i].name;
-  location.textContent = data[i].location;
-  social.textContent = data[i].social-objective;
+  location.textContent = "Location:" +" "+ data[i].location;
+  social.textContent ="Social Objective:"+" " + data[i].social;
+  information.textContent = "Information:"+" " + data[i].information;
+
+  photo.setAttribute('src', `../images/${data[i].photo}`);
+  photo.setAttribute('alt', data[i].name);
+  photo.setAttribute('class', 'imagen');
+  information.setAttribute("class","paragraph-directory");
+  social.setAttribute("class","paragraph-directory");
+  location.setAttribute("class","paragraph-directory");
+
+  name.setAttribute("class","title-directory");
+  
+  
+  seccion.appendChild(text);
+  text.appendChild(name);
+  text.appendChild(location);
+  text.appendChild(social);
+  text.appendChild(information);
+ 
+  seccion.appendChild(photo);
+  document.querySelector("div.directory").appendChild(seccion);
 
  }
 
