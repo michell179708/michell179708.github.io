@@ -30,7 +30,7 @@
 
     
 
- div.directory{
+ div.directory-home{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
  }

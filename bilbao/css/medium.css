@@ -87,9 +87,10 @@
  }
 
 /******************************Style for the page Home***************************************************/
-div.directory{
+div.directory-home{
  display: grid;
- grid-template-columns: 1fr 1fr ;   
+ grid-template-columns: 1fr 1fr ;  
+ column-gap: 2em; 
 }  
 
 }

@@ -29,7 +29,7 @@ fetch(requestURL)
 
   photo.setAttribute('src', `../images/${data[i].photo}`);
   photo.setAttribute('alt', data[i].name);
-  photo.setAttribute('class', 'imagen');
+  photo.setAttribute('class', 'imagen-directory');
   information.setAttribute("class","paragraph-directory");
   social.setAttribute("class","paragraph-directory");
   location.setAttribute("class","paragraph-directory");

@@ -30,11 +30,11 @@ fetch(requestURL)
   photo.setAttribute('src', `../images/${data[i].photo}`);
   photo.setAttribute('alt', data[i].name);
   photo.setAttribute('class', 'imagen');
-  information.setAttribute("class","paragraph-directory");
-  social.setAttribute("class","paragraph-directory");
-  location.setAttribute("class","paragraph-directory");
-  seccion.setAttribute("class","seccion");
-  text.setAttribute("class","div")
+  information.setAttribute("class","paragraph-home");
+  social.setAttribute("class","paragraph-home");
+  location.setAttribute("class","paragraph-home");
+  seccion.setAttribute("class","seccion-home");
+  text.setAttribute("class","div-home")
   name.setAttribute("class","title-directory");
   
   
@@ -45,7 +45,7 @@ fetch(requestURL)
   text.appendChild(information);
  
   seccion.appendChild(photo);
-  document.querySelector("div.directory").appendChild(seccion);
+  document.querySelector("div.directory-home").appendChild(seccion);
 
  }
 

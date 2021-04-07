@@ -198,15 +198,13 @@ nav ul.hide{
   }
 
 
-  div.directory{
+  div.directory-home{
     display: block;
     padding: 4em;
+    margin-top: 2em;
   }
 
-  section.seccion{
-    padding: 1.5em;
-    background-color: #e7d8c9;
-  }
+  
 
   img.imagen{
     display: block;
@@ -217,12 +215,12 @@ nav ul.hide{
     
   }
 
-  h4.title-directory{
+  h4.title-home{
     color: black;
     font-size: 1.5em;
   }
 
-  p.paragraph-directory{
+  p.paragraph-home{
     color: black;
     text-align: justify;
     font-family: "lato",sans-serif;
@@ -348,7 +346,7 @@ nav ul.hide{
 
   div.container{
     margin-top: 6em;
-    background-color:#e5e5e5;
+    border:3px solid;
     padding: 1.5em;
   }
 
@@ -356,11 +354,26 @@ nav ul.hide{
   div.column{
     display: block;
   }
+  
+  div.border{
+    border-top-style:solid ;
+  }
 
+  h3.title-contact{
+    text-align: left;
+  }
+
+
+  section.container-dos{
+
+    padding: 1.5em;
+    padding-right: 2em;
+  }
   section.container-tres{
-    
+    background-color: white;
     padding-top: 2em;
-   margin-right: 5em;
+    margin-right: 5em;
+   
   }
 
  
@@ -589,4 +602,71 @@ div.plan-cuatro:hover{
  
 }
 
+/********************************Style for the pague Directory**************************************************/
 
+div.directory{
+  margin-top: 2em;
+  padding: 1.5em;
+  background-color: #83c5be;
+}
+
+h2.title-directory{
+  text-align: left;
+}
+
+h3#button{
+  text-align: left;
+}
+
+
+/* Create two equal columns that floats next to each other */
+.div {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.seccion:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+h4.title-directory{
+  color: black;
+  font-size: 1.5em;
+}
+
+p.paragraph-directory{
+  color: black;
+  text-align: justify;
+  font-family: "lato",sans-serif;
+  font-size:1em ;
+}
+
+img.imagen-directory{
+  width: 300px;
+  max-width: 100%;
+  margin-top: 5em;
+  margin-left: 2em;
+}
