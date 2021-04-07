@@ -77,8 +77,13 @@
 
 
  footer.footer{
-  padding-left: 8em;
+    
+     text-align: center;
  }
 
+ div.container-plan{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+ }
 
 }

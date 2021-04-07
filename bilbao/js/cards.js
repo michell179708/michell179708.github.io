@@ -1,4 +1,4 @@
-const requestURL = "https://michell179708.github.io/Chamber%20commerce/js/directory.json";
+const requestURL = "https://michell179708.github.io/bilbao/js/directory.json";
 
 fetch(requestURL)
   .then(function (response) {
