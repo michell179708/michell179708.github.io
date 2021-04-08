@@ -93,4 +93,39 @@ div.directory-home{
  column-gap: 2em; 
 }  
 
+
+div#five-day{
+    display: block;
+    margin-left: 7em;
+    
+  
+    
+ } 
+
+th,td{
+    padding: 3px;
+ 
+}
+
+img.iconTable{
+    width:8em;
+    padding:2em;
+    margin-left: 2em;
+    
+}
+
+.color-table{
+    color: black;
+    background-color: #ffddd2;
+    text-align: center;
+}
+
+table.table{
+    margin-bottom: 1em;
+}
+
+h3.title-table{
+    display: block;
+}
+
 }
