@@ -48,7 +48,7 @@ fetch(apiURL)
   fetch(api)
   .then((response) => response.json())
   .then((jsObject) => {
-   // console.log(jsObject) we probe our link in console log
+   //console.log(jsObject) we probe our link in console log
 
    //code for the weekdays
    let day = 0;
